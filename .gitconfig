@@ -1,0 +1,9 @@
+[user]
+        name = Ivan Talakhovskyy
+        email = ivan.talakhovskyy@gmail.com
+[core]
+        autocrlf = false
+[diff]
+        tool = opendiff
+[merge]
+        tool = opendiff
