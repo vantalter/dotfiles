@@ -1,11 +1,9 @@
-DOTFILES=$(pwd)
-
 make decrypt_conf
 
-cp $DOTFILES/.env          ~/.env
-cp $DOTFILES/.bash_profile ~/.bash_profile
-cp $DOTFILES/.gitconfig    ~/.gitconfig
+cp .env          ~/.env
+cp .bash_profile ~/.bash_profile
+cp .gitconfig    ~/.gitconfig
 
-rm $DOTFILES/.env
+rm .env
 
 source ~/.bash_profile
