@@ -1,9 +1,19 @@
 [user]
-        name = Ivan Talakhovskyy
-        email = ivan.talakhovskyy@gmail.com
+	name = Ivan Talakhovskyy
+	email = ivan.talakhovskyy@gmail.com
 [core]
         autocrlf = false
 [diff]
-        tool = opendiff
+	tool = opendiff
 [merge]
-        tool = opendiff
+	tool = opendiff
+[filter "hawser"]
+	clean = git hawser clean %f
+	smudge = git hawser smudge %f
+	required = true
+[filter "lfs"]
+	clean = git lfs clean %f
+	smudge = git lfs smudge %f
+	required = true
+[push]
+	default = simple

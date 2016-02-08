@@ -3,6 +3,9 @@ NY: decrypt_conf encrypt_conf
 
 CONF_FILE=.env
 
+_pwd_prompt:
+	@echo "Contact ivan.talakhovskyy@gmail.com for the password."
+
 requirements:
 	@hash openssl 2>/dev/null || { echo >&2 "OpenSSL is required but it's not installed. Aborting."; exit 1; }
 
