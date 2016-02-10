@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 make decrypt_conf
 
 cp .env          ~/.env
