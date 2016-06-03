@@ -1,2 +1,4 @@
 .vagrant
 Vagrantfile
+*.sublime-project
+*.sublime-workspace
