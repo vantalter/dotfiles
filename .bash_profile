@@ -12,3 +12,5 @@ if [ $(command -v git) ]; then
     touch ~/.gitignore
   fi
 fi
+
+export HISTCONTROL=ignoreboth:erasedups
