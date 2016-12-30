@@ -22,11 +22,4 @@ if [ ! -d ~/.vim/plugged ]; then
   mkdir ~/.vim/plugged
 fi
 
-if [ ! -f ~/.vimrc ]; then
-  touch ~/.vimrc
-  echo "call plug#begin('~/.vim/plugged')" >> ~/.vimrc
-  echo "" >> ~/.vimrc
-  echo "call plug#end()" >> ~/.vimrc
-fi
-
 export HISTCONTROL=ignoreboth:erasedups
